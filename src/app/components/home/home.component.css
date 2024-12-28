@@ -1,0 +1,92 @@
+  .hero-section{
+  text-align: center;
+  }
+  
+  .logo .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ffb9;
+  }
+    
+  .btn-case-studies {
+    background-color: #00ffb9;
+    color: #181818;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .btn-case-studies:hover {
+    background-color: #00e6a6;
+  }
+  
+  /* Hero section */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .intro {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+  }
+  
+  .intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .intro h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #00ffb9;
+  }
+  
+  .btn-hire-me {
+    background-color: #00ffb9;
+    color: #181818;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .btn-hire-me:hover {
+    background-color: #00e6a6;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    margin-right: 15px;
+  }
+  
+  .btn-download-resume {
+    background-color: #ff0077;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .btn-download-resume:hover {
+    background-color: #e6006e;
+  }
+  
+  

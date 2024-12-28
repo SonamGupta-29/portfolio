@@ -1,0 +1,29 @@
+.footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon img {
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-10px);
+  opacity: 0.8;
+}
+
+.social-icon:active {
+  transform: translateY(5px);
+}
