@@ -11,7 +11,7 @@ export class HomeComponent {
   }
 
   downloadResume() {
-    const resumeUrl = 'assets/sonam-resume.pdf'; // Path to your resume in the assets folder
+    const resumeUrl = '/assets/Resume/Sonam-Gupta-Resume.pdf'; // Path to your resume in the assets folder
     const link = document.createElement('a');
     link.href = resumeUrl;
     link.download = 'Sonam_Gupta_Resume.pdf';
